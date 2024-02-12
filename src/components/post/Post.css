@@ -1,0 +1,79 @@
+.post {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.post-wrapper {
+  padding: 10px;
+}
+
+.topPostSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topLeft {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profileImg {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.profName {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.postTime {
+  font-size: 13px;
+}
+
+.centerPostSection {
+  width: 100%;
+  margin: 10px 0px;
+  /* display: flex; */
+}
+
+.postImg {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  margin: 10px 0px;
+}
+
+.bottomPostSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottomLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reactionIcon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.bottomRight {
+  display: flex;
+  align-items: center;
+  .commentBtn {
+    border: none;
+    width: 100%;
+    padding: 0;
+    border-bottom: 0.5px dashed;
+    font-weight: 300;
+    cursor: pointer;
+  }
+}

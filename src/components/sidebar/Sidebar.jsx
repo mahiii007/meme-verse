@@ -22,7 +22,21 @@ const Sidebar = () => {
             <span>Friends</span>
           </li>
         </ul>
-        <button type="button">Show More</button>
+        <button className="sidebarButton" type="button">
+          Show More
+        </button>
+        <hr className="sidebarHr" />
+
+        <ul className="sidebarFriendList">
+          {new Array(10).fill("_").map((d) => {
+            return (
+              <li>
+                <img src="assets/cheems.jpg" alt="pic" />
+                <span>cheemps stark</span>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </div>
   );
