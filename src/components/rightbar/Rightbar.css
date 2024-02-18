@@ -1,3 +1,96 @@
 .rightbar {
   flex: 3.5;
 }
+
+.rightbar-wrapper {
+  padding: 10px;
+}
+
+.birthday-container {
+  display: flex;
+  align-items: center;
+}
+
+.celebration-icon {
+  margin-right: 10px;
+}
+
+.onlineFriendsList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.onlineFriend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.onlineFriendContainer {
+  margin-right: 10px;
+  position: relative;
+}
+
+.onlineFriendsImg {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* position: relative; */
+}
+
+.onlineFriendMarker {
+  height: 12px;
+  width: 12px;
+  background-color: lime;
+  border-radius: 50%;
+  top: -10%;
+  right: -4px;
+  border: 2px solid white;
+  position: absolute;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.userInfoList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.userInfoListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.profInfoIcon {
+  margin-right: 10px;
+}
+
+.FriendsHeading {
+  font-size: 20px;
+}
+
+.friendList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.friendcard {
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px 10px 0;
+}
+
+.personPic {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}

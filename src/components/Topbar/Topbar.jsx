@@ -8,7 +8,7 @@ const Topbar = () => {
   return (
     <div className="topbar">
       <div className="left">
-        <span className="logo">MEME-VERSE</span>
+        <span className="logo">MEMEVERSE</span>
       </div>
       <div className="center">
         <div className="search-box">

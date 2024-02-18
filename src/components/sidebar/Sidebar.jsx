@@ -2,6 +2,7 @@ import "./Sidebar.css";
 import FeedIcon from "@mui/icons-material/Feed";
 import PeopleIcon from "@mui/icons-material/People";
 import LinkIcon from "@mui/icons-material/Link";
+import { hundredUser } from "../../dummyData";
 // import { FeedIcon, People, Link } from "@mui/icons-material";
 
 const Sidebar = () => {
@@ -26,13 +27,13 @@ const Sidebar = () => {
           Show More
         </button>
         <hr className="sidebarHr" />
-
+        <h4 className="closedFriendHeader">Closed Friends</h4>
         <ul className="sidebarFriendList">
-          {new Array(10).fill("_").map((d) => {
+          {hundredUser.map((user) => {
             return (
-              <li>
-                <img src="assets/cheems.jpg" alt="pic" />
-                <span>cheemps stark</span>
+              <li key={user.id}>
+                <img src={user?.profilePicture} alt="pic" />
+                <span>{user?.username}</span>
               </li>
             );
           })}

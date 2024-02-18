@@ -1,94 +1,101 @@
 .topbar {
-    display: flex;
-    background-color: #1877f2;
-    height: 50px;
-    top: 0;
-    position: sticky;
-    align-items: center;
+  display: flex;
+  background-color: #1877f2;
+  height: 50px;
+  top: 0;
+  position: sticky;
+  align-items: center;
+  z-index: 999;
 }
 .left {
-    flex: 3;
+  flex: 3;
 }
 .logo {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 500;
-    margin-left: 15px;
-    cursor: pointer;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 15px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #ff6600, #fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
 }
 
 .center {
-    flex: 5;
+  flex: 5;
 }
 
 .search-box {
-    background-color: #fff;
-    width: 100%;
-    border-radius: 30px;
-    display: flex;
-    height: 30px;
-    align-items: center;
+  background-color: #fff;
+  width: 100%;
+  border-radius: 30px;
+  display: flex;
+  height: 30px;
+  align-items: center;
 }
 
 .search-icon {
-    margin: 0px 10px;
-    font-size: 20px !important;
+  margin: 0px 10px;
+  font-size: 20px !important;
 }
 
 .search-input {
-    width: 70%;
-    border: none;
+  width: 70%;
+  border: none;
 }
 .search-input:focus {
-    outline: none;
+  outline: none;
 }
 .right {
-    flex: 4;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .links {
-    span {
-        margin-right: 10px;
-        cursor: pointer;
-        color: white;
-    }
+  span {
+    margin-right: 10px;
+    cursor: pointer;
+    color: white;
+  }
 }
 
-.icon-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .items {
-    position: relative;
-    color: white;
-    cursor: pointer;
+  position: relative;
+  color: white;
+  cursor: pointer;
 
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .badge {
-    position: absolute;
-    background-color: red;
-    border-radius: 50%;
-    top: -5px;
-    right: -5px;
-    color: white;
-    height: 15px;
-    width: 15px;
-    display: flex;justify-content: center;
-    align-items: center;
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  top: -5px;
+  right: -5px;
+  color: white;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.image{
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    object-fit: cover;
-    cursor: pointer;
+.image {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
 }
-
